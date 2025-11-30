@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    font-family: 'Source Code Pro', 'Ubuntu', 'Roboto';
+    background-color: #000000;
+}
+
+.title {
+    h2 {
+        font-family: 'Source Code Pro';
+        font-weight: 700;
+        color: #41ff1c;
+        font-size: 3.5em;
+        text-align: center;
+    }
+    p {
+        font-family: 'Ubuntu';
+        font-weight: 400;
+        font-style: italic;
+        color: #FFFFFF;
+        text-align: center;
+        margin-left: 50px;  
+        margin-right: 50px;
+    }
+    border: 0.5px, white, solid;
+    border-radius: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.icon {
+    font-family: 'Source Code Pro';
+    color: #41ff1c;
+    font-size: 2em;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    display: block;
+    
+}
+.navi {
+    ul {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+    }
+    a {
+        text-decoration: none;
+        color: #FFFFFF;
+        display: block;
+        text-align: center;
+        padding: 7px;
+        font-size: 1.5em;
+    }
+    li {
+        float: left;
+    }
+}
+.homescreen {
+    font-family: 'Ubuntu';
+    font-size: 3.5em;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 50px;
+}
+.catalog {
+    h3 {
+        font-family: 'Ubuntu';
+        font-weight: 400;
+    }
+    border: 2px, solid, #FFFFFF;
+    border-radius: 35px;
+    margin-left: 300px;
+    margin-right: 300px;
+    hr {
+        color: #41ff1c;
+        border-radius: 10px;
+        border: 3px, solid;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+.box {
+    text-align: center;
+
+    a {
+        text-decoration: none;
+        display: block;
+        
+    }
+}
+.appwidget {
+    margin-left: 50px;
+    margin-right: 50px;
+    a {
+        font-family: 'Roboto';
+        text-decoration: none;
+        color: #41ff1c;
+        font-size: 2em;
+    }
+    p {
+        font-family: 'Ubuntu';
+        color: #FFFFFF;
+    }
+}
+.appcontainer {
+    background-color: #FFFFFF;
+    border: 0.5px, #000000, solid;
+    border-radius: 25px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+    p {
+        margin-left: 75px;
+        margin-right: 75px;
+        font-family: 'Ubuntu';
+    }
+    a {
+        text-decoration: none;
+        font-family: 'Roboto';
+        h2 {
+            color: #000000;
+            margin-left: 50px;
+        }
+        
+    }
+}
+.line {
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 0.1px, #000000, solid;
+    border-radius: 15px;
+    height: 3px;
+    background-color: #000000;
+}
+.header2 {
+    display: inline-flex;
+    gap: 5px;
+    padding: 10px;
+    img {
+        height: 70px;
+    }
+    h2 {
+        font-family: 'Source Code Pro';
+        color: #41ff1c;
+    }
+}
