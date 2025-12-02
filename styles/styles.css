@@ -82,11 +82,16 @@ body {
 }
 .box {
     text-align: center;
-
+    border: 1px, #FFFFFF, solid;
+    border-radius: 25px;
+    margin-left: 200px;
+    margin-right: 200px;
     a {
         text-decoration: none;
         display: block;
-        
+        padding: 25px;
+        color: #41ff1c;
+        font-size: 1.5em;
     }
 }
 .appwidget {
